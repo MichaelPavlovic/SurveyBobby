@@ -1,0 +1,10 @@
+#signinSection, #signupSection{
+    text-align: center;
+    margin: 50px auto;
+}
+
+#signinForm, #signupForm, #wrongUserCred {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 400px;
+}

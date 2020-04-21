@@ -1,0 +1,13 @@
+.bg{
+    background-color:#2B4764;
+}
+.container-fluid{
+    padding-top:120px;
+    padding-bottom:120px;
+}
+.pad-top{
+    padding-top:30px;
+}
+.button{
+    margin-left:1em;
+}

@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+html{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* User Form */
+
+/*Form styling adapted from https://www.w3schools.com/css/css_form.asp*/
+
+label{
+  color: black;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  
+  input[type=submit], .button {
+    width: 100%;
+
+    background-color: unset;
+    background-color: darkslateblue;
+    color: white;
+    padding: 10px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  input[type=submit], .button:hover {
+    background-color: #45a049;
+  }
+  
+  fieldset {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  /* End User Form */
+
+.table{
+    width: 98%;
+    margin: 10px;
+    display: inline-block;
+    
+}
+.inline-block{
+    display: inline-block;
+}
+
+.jumbotron.profile{
+    width: 38%;
+    margin: 10px;
+    float: right;
+    padding: 5px;
+    
+}
+
+.profileImage img{
+    height: auto;
+    width: 16vw;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: block;
+
+}
+.custom-select{
+    width: 12vw;
+    background-color: #c3d5e7;
+}
+
+@media only screen and (max-width: 1000px) {
+    .jumbotron.profile{
+        
+        margin: 10px;
+        float: left;
+        width: 96vw;
+        
+        
+    }
+    .table{
+        width: 98vw;
+        margin: 10px;
+        display: block;
+        
+    }
+    #tables{
+      display: flex;
+      flex-direction: column;
+      width: 98vw;
+      /* position: relative; */
+      /* display: block; */
+      
+    }
+  }
+
+  .hidden {
+    all: unset;
+    display: none;
+    position: absolute;
+    left: -10000px;
+  }
+  #tables{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    /* position: absolute; */
+    float: left;
+  }

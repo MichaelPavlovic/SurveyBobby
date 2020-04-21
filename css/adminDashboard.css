@@ -1,0 +1,54 @@
+.survey, .users{
+    width: 100%;
+    margin: 10px;
+    display: inline-block;   
+}
+.table{
+    width: 100%
+}
+.inline-block{
+    display: inline-block;
+    width: 12vw;
+}
+.custom-select{
+    
+    background-color: #c3d5e7;
+}
+.right{
+    
+    width: 48%;
+    margin: 10px;
+    float: right;
+}
+.left{
+    float: left;
+    width: 48%;
+    margin: 10px;
+}
+.survey{
+    float: left;
+}
+.users{
+    float: left;
+}
+@media only screen and (max-width: 1000px) {
+    .right{
+        
+        margin: 10px;
+        float: left;
+        width: 98%;        
+    }
+    .left{
+        
+        margin: 10px;
+        float: left;
+        width: 98%;        
+    }
+    
+    .table{
+        width: 98%;
+        margin: 10px;
+        display: inline-block;
+        
+    }
+  }

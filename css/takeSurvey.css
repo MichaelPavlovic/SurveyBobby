@@ -1,0 +1,32 @@
+#takeSurvey{
+    
+}
+
+#surveyIntro{
+    margin: 30px auto;
+}
+
+.surveyCancelLink{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+form{
+    text-align: center;
+}
+
+.form-check-label{
+    margin-left: 50px;
+}
+
+.question{
+    margin: 30px auto;
+}
+
+.questionNo{
+    text-decoration: underline;
+}
+
+#surveySubmit{
+    width: 300px;
+}
